@@ -1,6 +1,6 @@
-# MINI-XV
+# MINIX-V
 
-MINI-XV is a 32-bit multi-cycle RISC-V-based SoC implemented in SystemVerilog. The project includes a custom CPU core, memory system, memory-mapped peripheral bus, FIFO, and UART transmitter.
+MINIX-V is a 32-bit multi-cycle RISC-V-based SoC implemented in SystemVerilog. The project includes a custom CPU core, memory system, memory-mapped peripheral bus, FIFO, and UART transmitter.
 
 The processor can execute machine code generated from C using the RISC-V GCC toolchain.
 
@@ -17,7 +17,7 @@ The processor can execute machine code generated from C using the RISC-V GCC too
 
 ## C Program Execution
 
-A Fibonacci program written in C is compiled using RISC-V GCC and executed directly on MINI-XV.
+A Fibonacci program written in C is compiled using RISC-V GCC and executed directly on MINIX-V.
 
 The complete data path was verified:
 
@@ -28,7 +28,7 @@ RISC-V GCC
    |
 Machine Code
    |
-MINI-XV
+MINIX-V
    |
 OBI Bus
    |
